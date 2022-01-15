@@ -19,7 +19,7 @@ namespace OtelRezervasyonSistemi
             InitializeComponent();
         }
 
-        SqlConnection baglanti = new SqlConnection("Data Source=thesqlless.database.windows.net;Initial Catalog=OtelRez;Persist Security Info=True;User ID=thesqlless;Password=DBsmyo55");
+        SqlConnection baglanti = new SqlConnection("Data Source=DESKTOP-4DKCRAA;Initial Catalog=OtelR;Integrated Security=True");
 
         private void dateTimePicker2_ValueChanged(object sender, EventArgs e)
         {
@@ -128,7 +128,7 @@ namespace OtelRezervasyonSistemi
 
             label11.Text = Sonuc.TotalDays.ToString();
 
-            Ucret = Convert.ToInt32(label11.Text) * 50;
+            Ucret = Convert.ToInt32(label11.Text) * 500;
             TxtUcret.Text = Ucret.ToString();
         }
 
@@ -295,4 +295,4 @@ namespace OtelRezervasyonSistemi
 
 //Data Source=Kaan;Initial Catalog=OtomasyonVeri;Integrated Security=True
 //Data Source=DESKTOP-4DKCRAA;Initial Catalog=OtelR;Integrated Security=True
-//Data Source=thesqlless.database.windows.net;Initial Catalog=OtelRez;Persist Security Info=True;User ID=thesqlless;Password=DBsmyo55
+//Data Source=DESKTOP-4DKCRAA;Initial Catalog=OtelR;Integrated Security=True

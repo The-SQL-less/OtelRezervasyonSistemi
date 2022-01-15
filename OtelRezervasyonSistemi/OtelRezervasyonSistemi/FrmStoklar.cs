@@ -18,7 +18,7 @@ namespace OtelRezervasyonSistemi
         {
             InitializeComponent();
         }
-        SqlConnection baglanti = new SqlConnection("Data Source=thesqlless.database.windows.net;Initial Catalog=OtelRez;Persist Security Info=True;User ID=thesqlless;Password=DBsmyo55");
+        SqlConnection baglanti = new SqlConnection("Data Source=DESKTOP-4DKCRAA;Initial Catalog=OtelR;Integrated Security=True");
         private void veriler()
         {
             listView1.Items.Clear();
