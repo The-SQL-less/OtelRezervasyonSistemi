@@ -44,7 +44,7 @@ namespace OtelRezervasyonSistemi
 
         private void button9_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("TheSQLless");
+            MessageBox.Show("  \n                            🆃🅷🅴🆂🆀🅻🅻🅴🆂🆂 🇨​🇴​🇵​🇾​🇷​🇮​🇬​🇭​🇹​ ©₂₀₂₂ \n\n 𝟐𝟎𝟒𝟖𝟎𝟎𝟗𝟖 Busenur ADIBELLİ \n\n 𝟐𝟎𝟒𝟖𝟎𝟎𝟗𝟓 Damla KARAKUŞ \n\n 𝟐𝟎𝟒𝟖𝟎𝟎𝟓𝟖 Gökhan Esat HAZIRLAR \n\n 𝟏𝟗𝟒𝟖𝟎𝟏𝟎𝟏 Oğuz Kağan İPEK \n\n 𝟐𝟎𝟒𝟖𝟎𝟎𝟑𝟔 Aleyna GÜNEŞ \n\n 𝟐𝟎𝟒𝟖𝟎𝟎𝟕𝟐 Mehmet Ali AÇIKGÖZ\n\n Bu Proje Ondokuz Mayız Üniversitesi Samsun Meslek Yüksekokulu Bilgisayar Programcılığı Veri Tabanı-II Dersininin Final Projesi için oluşturulmuştur.");
         }
 
         private void timer1_Tick(object sender, EventArgs e)

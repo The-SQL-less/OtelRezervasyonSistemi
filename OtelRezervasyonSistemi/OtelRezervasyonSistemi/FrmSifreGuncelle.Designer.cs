@@ -39,8 +39,8 @@
             // BtnGuncelle
             // 
             this.BtnGuncelle.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.BtnGuncelle.Location = new System.Drawing.Point(286, 137);
-            this.BtnGuncelle.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnGuncelle.Location = new System.Drawing.Point(181, 143);
+            this.BtnGuncelle.Margin = new System.Windows.Forms.Padding(4);
             this.BtnGuncelle.Name = "BtnGuncelle";
             this.BtnGuncelle.Size = new System.Drawing.Size(136, 38);
             this.BtnGuncelle.TabIndex = 2;
@@ -51,7 +51,7 @@
             // TxtSifre
             // 
             this.TxtSifre.Location = new System.Drawing.Point(258, 80);
-            this.TxtSifre.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxtSifre.Margin = new System.Windows.Forms.Padding(4);
             this.TxtSifre.Name = "TxtSifre";
             this.TxtSifre.Size = new System.Drawing.Size(200, 22);
             this.TxtSifre.TabIndex = 1;
@@ -61,7 +61,7 @@
             // 
             this.TxtKullaniciAdi.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.TxtKullaniciAdi.Location = new System.Drawing.Point(258, 28);
-            this.TxtKullaniciAdi.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxtKullaniciAdi.Margin = new System.Windows.Forms.Padding(4);
             this.TxtKullaniciAdi.Name = "TxtKullaniciAdi";
             this.TxtKullaniciAdi.Size = new System.Drawing.Size(200, 29);
             this.TxtKullaniciAdi.TabIndex = 0;
@@ -69,8 +69,10 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label2.Location = new System.Drawing.Point(89, 76);
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(117, 80);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(64, 28);
@@ -80,8 +82,10 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label1.Location = new System.Drawing.Point(16, 25);
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(47, 29);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(134, 28);
@@ -92,7 +96,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.BackColor = System.Drawing.Color.Maroon;
             this.ClientSize = new System.Drawing.Size(510, 226);
             this.Controls.Add(this.BtnGuncelle);
             this.Controls.Add(this.TxtSifre);

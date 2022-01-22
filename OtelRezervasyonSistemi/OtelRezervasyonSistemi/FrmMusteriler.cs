@@ -19,7 +19,7 @@ namespace OtelRezervasyonSistemi
             InitializeComponent();
         }
 
-        SqlConnection baglanti = new SqlConnection("Data Source=thesqlless.database.windows.net;Initial Catalog=OtelRez;Persist Security Info=True;User ID=thesqlless;Password=DBsmyo55");
+        SqlConnection baglanti = new SqlConnection("Data Source=DESKTOP-4DKCRAA;Initial Catalog=OtelR;Integrated Security=True");
 
         private void verilergöster()
         {
@@ -67,7 +67,17 @@ namespace OtelRezervasyonSistemi
 
         private void DtpCikisTarihi_ValueChanged(object sender, EventArgs e)
         {
+            int Ucret;
+            DateTime KucukTarih = Convert.ToDateTime(DtpGirisTarihi.Text);
+            DateTime BuyukTarih = Convert.ToDateTime(DtpCikisTarihi.Text);
 
+            TimeSpan Sonuc;
+            Sonuc = BuyukTarih - KucukTarih;
+
+            label11.Text = Sonuc.TotalDays.ToString();
+
+            Ucret = Convert.ToInt32(label11.Text) * 500;
+            TxtUcret.Text = Ucret.ToString();
         }
 
         private void DtpGirisTarihi_ValueChanged(object sender, EventArgs e)
@@ -207,7 +217,7 @@ namespace OtelRezervasyonSistemi
             try
             {
                 baglanti.Open();
-                SqlCommand komut = new SqlCommand("update MusteriEkle set Adi='" + TxtAdi + "',Soyadi='" + TxtSoyadi + "',Cinsiyet='" + comboBox1 + "',Telefon='" + MskTxtTelefon + "',Mail='" + TxtMail + "',TC='" + TxtKimlikNo + "',OdaNo='" + TxtOdaNo + "',Ucret='" + TxtUcret + "',GirisTarihi='" + DtpGirisTarihi.Value.ToString("yyyy-MM-dd") + "',CikisTarihi='" + DtpCikisTarihi.Value.ToString("yyyy-MM-dd") + "' where Musteriid=" + id + "", baglanti);
+                SqlCommand komut = new SqlCommand("update MusteriEkle set Adi='" + TxtAdi.Text.ToString() + "',Soyadi='" + TxtSoyadi.Text.ToString() + "',Cinsiyet='" + comboBox1.Text.ToString() + "',Telefon='" + MskTxtTelefon.Text + "',Mail='" + TxtMail.Text + "',TC='" + TxtKimlikNo.Text.ToString() + "',OdaNo='" + TxtOdaNo.Text.ToString() + "',Ucret='" + TxtUcret.Text.ToString() + "',GirisTarihi='" + DtpGirisTarihi.Value.ToString("yyyy-MM-dd") + "',CikisTarihi='" + DtpCikisTarihi.Value.ToString("yyyy-MM-dd") + "' where Musteriid=" + id + "", baglanti);
                 komut.ExecuteNonQuery();
                 baglanti.Close();
                 verilergöster();

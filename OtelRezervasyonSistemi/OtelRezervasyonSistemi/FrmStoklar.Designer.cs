@@ -89,6 +89,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.BackColor = System.Drawing.Color.Silver;
             this.groupBox1.Controls.Add(this.BtnKaydet);
             this.groupBox1.Controls.Add(this.TxtAtistirmaliklar);
             this.groupBox1.Controls.Add(this.Txtİcecekler);
@@ -173,6 +174,7 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.BackColor = System.Drawing.Color.Silver;
             this.groupBox2.Controls.Add(this.BtnKaydet2);
             this.groupBox2.Controls.Add(this.TxtElektrik);
             this.groupBox2.Controls.Add(this.Txtİnternet);
@@ -290,7 +292,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.BackColor = System.Drawing.Color.DimGray;
             this.ClientSize = new System.Drawing.Size(1040, 450);
             this.Controls.Add(this.listView2);
             this.Controls.Add(this.groupBox2);

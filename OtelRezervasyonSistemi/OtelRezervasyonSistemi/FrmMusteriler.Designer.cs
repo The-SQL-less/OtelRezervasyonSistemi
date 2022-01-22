@@ -86,7 +86,7 @@
             this.columnHeader11});
             this.listView1.HideSelection = false;
             this.listView1.Location = new System.Drawing.Point(16, 353);
-            this.listView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.listView1.Margin = new System.Windows.Forms.Padding(4);
             this.listView1.Name = "listView1";
             this.listView1.Size = new System.Drawing.Size(1184, 250);
             this.listView1.TabIndex = 0;
@@ -143,7 +143,7 @@
             // BtnVerileriGoster
             // 
             this.BtnVerileriGoster.Location = new System.Drawing.Point(1077, 22);
-            this.BtnVerileriGoster.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnVerileriGoster.Margin = new System.Windows.Forms.Padding(4);
             this.BtnVerileriGoster.Name = "BtnVerileriGoster";
             this.BtnVerileriGoster.Size = new System.Drawing.Size(123, 41);
             this.BtnVerileriGoster.TabIndex = 11;
@@ -202,7 +202,7 @@
             "Kadın",
             "Erkek"});
             this.comboBox1.Location = new System.Drawing.Point(179, 89);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(4);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(303, 24);
             this.comboBox1.TabIndex = 2;
@@ -211,7 +211,7 @@
             // 
             this.TxtUcret.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.TxtUcret.Location = new System.Drawing.Point(673, 20);
-            this.TxtUcret.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxtUcret.Margin = new System.Windows.Forms.Padding(4);
             this.TxtUcret.Name = "TxtUcret";
             this.TxtUcret.Size = new System.Drawing.Size(303, 32);
             this.TxtUcret.TabIndex = 7;
@@ -233,7 +233,7 @@
             // 
             this.DtpCikisTarihi.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.DtpCikisTarihi.Location = new System.Drawing.Point(673, 114);
-            this.DtpCikisTarihi.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.DtpCikisTarihi.Margin = new System.Windows.Forms.Padding(4);
             this.DtpCikisTarihi.Name = "DtpCikisTarihi";
             this.DtpCikisTarihi.Size = new System.Drawing.Size(303, 32);
             this.DtpCikisTarihi.TabIndex = 9;
@@ -243,7 +243,7 @@
             // 
             this.DtpGirisTarihi.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.DtpGirisTarihi.Location = new System.Drawing.Point(673, 68);
-            this.DtpGirisTarihi.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.DtpGirisTarihi.Margin = new System.Windows.Forms.Padding(4);
             this.DtpGirisTarihi.Name = "DtpGirisTarihi";
             this.DtpGirisTarihi.Size = new System.Drawing.Size(303, 32);
             this.DtpGirisTarihi.TabIndex = 8;
@@ -253,7 +253,7 @@
             // 
             this.MskTxtTelefon.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.MskTxtTelefon.Location = new System.Drawing.Point(179, 137);
-            this.MskTxtTelefon.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MskTxtTelefon.Margin = new System.Windows.Forms.Padding(4);
             this.MskTxtTelefon.Mask = "(999) 000-0000";
             this.MskTxtTelefon.Name = "MskTxtTelefon";
             this.MskTxtTelefon.Size = new System.Drawing.Size(303, 32);
@@ -264,7 +264,7 @@
             this.TxtOdaNo.Enabled = false;
             this.TxtOdaNo.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.TxtOdaNo.Location = new System.Drawing.Point(179, 270);
-            this.TxtOdaNo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxtOdaNo.Margin = new System.Windows.Forms.Padding(4);
             this.TxtOdaNo.Name = "TxtOdaNo";
             this.TxtOdaNo.Size = new System.Drawing.Size(303, 32);
             this.TxtOdaNo.TabIndex = 6;
@@ -273,7 +273,7 @@
             // 
             this.TxtKimlikNo.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.TxtKimlikNo.Location = new System.Drawing.Point(179, 219);
-            this.TxtKimlikNo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxtKimlikNo.Margin = new System.Windows.Forms.Padding(4);
             this.TxtKimlikNo.MaxLength = 11;
             this.TxtKimlikNo.Name = "TxtKimlikNo";
             this.TxtKimlikNo.Size = new System.Drawing.Size(303, 32);
@@ -283,7 +283,7 @@
             // 
             this.TxtMail.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.TxtMail.Location = new System.Drawing.Point(179, 178);
-            this.TxtMail.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxtMail.Margin = new System.Windows.Forms.Padding(4);
             this.TxtMail.Name = "TxtMail";
             this.TxtMail.Size = new System.Drawing.Size(303, 32);
             this.TxtMail.TabIndex = 4;
@@ -292,7 +292,7 @@
             // 
             this.TxtSoyadi.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.TxtSoyadi.Location = new System.Drawing.Point(179, 42);
-            this.TxtSoyadi.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxtSoyadi.Margin = new System.Windows.Forms.Padding(4);
             this.TxtSoyadi.Name = "TxtSoyadi";
             this.TxtSoyadi.Size = new System.Drawing.Size(303, 32);
             this.TxtSoyadi.TabIndex = 1;
@@ -301,7 +301,7 @@
             // 
             this.TxtAdi.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.TxtAdi.Location = new System.Drawing.Point(179, 2);
-            this.TxtAdi.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxtAdi.Margin = new System.Windows.Forms.Padding(4);
             this.TxtAdi.Name = "TxtAdi";
             this.TxtAdi.Size = new System.Drawing.Size(303, 32);
             this.TxtAdi.TabIndex = 0;
@@ -400,7 +400,7 @@
             // 
             this.textBox1.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.textBox1.Location = new System.Drawing.Point(897, 293);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(303, 32);
             this.textBox1.TabIndex = 10;
@@ -431,7 +431,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.BackColor = System.Drawing.Color.DarkGray;
             this.ClientSize = new System.Drawing.Size(1217, 619);
             this.Controls.Add(this.BtnTemizle);
             this.Controls.Add(this.textBox1);
@@ -462,7 +462,7 @@
             this.Controls.Add(this.BtnVerileriGoster);
             this.Controls.Add(this.listView1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "FrmMusteriler";

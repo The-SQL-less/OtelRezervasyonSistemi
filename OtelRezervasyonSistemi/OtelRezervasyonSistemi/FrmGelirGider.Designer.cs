@@ -232,7 +232,7 @@
             // FrmGelirGider
             // 
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.BackColor = System.Drawing.Color.LightGray;
             this.ClientSize = new System.Drawing.Size(763, 454);
             this.Controls.Add(this.LblFaturalar3);
             this.Controls.Add(this.LblFaturalar2);
