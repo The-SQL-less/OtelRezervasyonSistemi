@@ -18,7 +18,12 @@ namespace OtelRezervasyonSistemi
         {
             InitializeComponent();
         }
-        SqlConnection baglanti = new SqlConnection("Data Source=DESKTOP-4DKCRAA;Initial Catalog=OtelR;Integrated Security=True");
+        //SqlConnection baglanti = new SqlConnection("Data Source=DESKTOP-4DKCRAA;Initial Catalog=OtelR;Integrated Security=True");
+
+        // AZURE CONN
+        SqlConnection baglanti = new SqlConnection("Data Source=thesqlless.database.windows.net;Initial Catalog=OtelRez;Persist Security Info=True;User ID=thesqlless;Password=DBsmyo55");
+        
+
         private void BtnGirisYap_Click(object sender, EventArgs e)
         {
             // vt baglandıgında calıstıracagımız kod
